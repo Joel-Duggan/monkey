@@ -9,8 +9,7 @@
 
 .jumbotron {
     h1 {
-        font-family: "epicFont2", Fallback, sans-serif;
-        color: blue;
+        color: rgb(72, 72, 73);
     }
 }
 
@@ -27,20 +26,20 @@ footer {
     padding: 10px;
 }
 
-@font-face {
-    font-family: 'epicFont';
-    src: url('font/EdgeOfTheGalaxyPoster-3zRAp.otf') format('opentype');
-  }
-
-@font-face {
-  font-family: 'epicFont2';
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+body {
+    background-color: whitesmoke;
 }
 
+.card-body {
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+}
+
+#feeList {
+    list-style: none;
+    padding-left: 0;
+}
 
   
