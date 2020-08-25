@@ -37,6 +37,10 @@ body {
     }
 }
 
+.card-header {
+    cursor: pointer;
+}
+
 #feeList {
     list-style: none;
     padding-left: 0;
